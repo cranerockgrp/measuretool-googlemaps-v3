@@ -1,0 +1,77 @@
+{
+  "_from": "measuretool-googlemaps-v3@^1.0.2",
+  "_id": "measuretool-googlemaps-v3@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ppEPzxKFJ2i8P8TSDK14i/jEpaC63zKprekXCGORcrM1A27kN3gvOzKh01S+3lC5dE++DvBP6V91udaq81MbZw==",
+  "_location": "/measuretool-googlemaps-v3",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "measuretool-googlemaps-v3@^1.0.2",
+    "name": "measuretool-googlemaps-v3",
+    "escapedName": "measuretool-googlemaps-v3",
+    "rawSpec": "^1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/measuretool-googlemaps-v3/-/measuretool-googlemaps-v3-1.0.2.tgz",
+  "_shasum": "b23698ea9966c7e61d956e65db348a9167846032",
+  "_spec": "measuretool-googlemaps-v3@^1.0.2",
+  "_where": "D:\\activity\\projects\\beam\\live-react",
+  "author": {
+    "name": "Zhenyang Hua"
+  },
+  "browser": "dist/gmaps-measuretool.umd.js",
+  "main": "dist/gmaps-measuretool.umd.js",
+  "bugs": {
+    "url": "https://github.com/zhenyanghua/MeasureTool-GoogleMaps-V3/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "d3-drag": "^2.0.0",
+    "d3-selection": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "A handy measurement widget for Google Maps API v3. The functionalities are implemented as close as to what current Google Maps offers.",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "node-sass": "^5.0.0",
+    "prettier": "2.2.1",
+    "rollup": "^2.36.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-styles": "^3.12.1",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/zhenyanghua/MeasureTool-GoogleMaps-V3#readme",
+  "keywords": [
+    "Google Maps API",
+    "measuremnt",
+    "measure distance",
+    "measure area",
+    "measure"
+  ],
+  "license": "Apache-2.0",
+  "module": "dist/gmaps-measuretool.esm.js",
+  "name": "measuretool-googlemaps-v3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhenyanghua/MeasureTool-GoogleMaps-V3.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "format": "prettier --write src",
+    "prepare": "npm run build"
+  },
+  "version": "1.0.2"
+}
